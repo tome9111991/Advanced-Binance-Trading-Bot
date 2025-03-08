@@ -8,7 +8,8 @@ An advanced, feature-rich trading bot for Binance exchange that supports both Sp
 
 - **Dual Trading Modes**: 
   - Futures Testnet Mode (practice without real money)
-  - Spot Live Mode (trade with real assets)
+  - Spot Live Mode (trade with real assets, spot markets only)
+  
   
 - **Technical Analysis Engine**:
   - Real-time calculation of multiple technical indicators
@@ -93,6 +94,8 @@ API_SECRET = ""   # Your Binance API secret
 ```python
 USE_TESTNET = True  # True for Testnet, False for live trading
 ```
+> **IMPORTANT**: When `USE_TESTNET = False`, the bot operates in Spot markets only. Futures trading is only available in Testnet mode.
+
 
 ### Trading Configuration
 ```python
