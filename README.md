@@ -68,7 +68,7 @@ The bot includes the following trading strategies:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/binance-trading-bot.git
+git clone https://github.com/tome9111991/Advanced-Binance-Trading-Bot.git
 cd binance-trading-bot
 ```
 
